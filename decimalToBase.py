@@ -17,8 +17,8 @@ def decimalToBase(x, n):
 
     while n > 0:
         print(f"n = {n}\tr = {n%x}")            # pretty prints 'n' & the remainder for visualization
-        bit_string.append(n % x)                # collects the remainder when n is divided by 'x' for the result
-        n //= x                                 # floor divides n by 'x' for the next cycle until it's 0
+        bit_string.append(n % x)                # collects the remainder when 'n' is divided by 'x' for the result
+        n //= x                                 # floor divides 'n' by 'x' for the next cycle until the quotient is 0
     
     return ''.join(reversed([str(x) for x in bit_string]))
 

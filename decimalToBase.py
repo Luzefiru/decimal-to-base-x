@@ -3,7 +3,7 @@ def decimalToBase(x, n):
     Parameters
     ----------
     x : {int}
-        The radix of the numer system to convert to.
+        The radix of the number system to convert to.
     n : {int}
         A Decimal number represented in base-10.
 
